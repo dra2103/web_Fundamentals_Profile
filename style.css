@@ -1,0 +1,232 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+.container {
+  height: 100vh ;
+  width: 100%;
+  background-color: lightgray;
+  flex-direction: column;
+}
+
+.border {
+  border: 2px solid black;
+}
+/* nav bar */
+.nav-bar {
+  font-family: "Roboto", sans-serif;
+  height: 15vh;
+  width: 100%;
+  background-color: dodgerblue;
+  color: aliceblue;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.nav-links {
+  width: 50%;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-evenly;
+  
+}
+
+
+
+.btn {
+  height: 40px;
+  width: 100px;
+  background-color: aliceblue;
+  color: dodgerblue;
+  border: none;
+  font-size: 16px;
+  box-shadow: 5px 5px black;
+  margin-right: 225px;
+  
+}
+
+/* So the columns are in line under nav bar */
+.cols {
+  display: inline-flex;
+  height: 85vh;
+}
+
+/* everything under left column */
+.col-left {
+  background-color: lightgray;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: flex-end;
+}
+
+/* all H3 shifts */
+h3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.img {
+  height: 15px;
+  width: 15px
+}
+
+.split, .split2{
+  background-color: darkgray;
+  height: 60px;
+  width: 500px;
+}
+
+.name {
+  margin-top: 40px;
+}
+
+/* Shitfs content left when I need  it*/
+.left {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.info{
+  background-color: aliceblue;
+  height: 500px;
+  width: 500px;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.user {
+  height: 90px;
+  width: 90px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.edit {
+  color: black;
+  text-decoration: none;
+}
+
+/* all bottom left-box */
+.edu {
+  background-color: aliceblue;
+  height: 300px;
+  width: 500px;
+  margin: 10px;
+  flex-direction: column;
+}
+
+h2 {
+  color: black;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+h4 {
+  color: rgb(44, 37, 37);
+  
+}
+
+
+
+/* everything under right column */
+.col-right {
+  background-color: lightgrey;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  align-items: flex-start;
+}
+
+/* top box */
+.connect {
+  height: 30px;
+  width: 30px;
+  flex-direction: column;
+
+}
+
+.split3 {
+  height: 60px;
+  width: 350px;
+  background-color: darkgray;
+}
+
+.request {
+  background-color: aliceblue;
+  height: 310px;
+  width: 350px;
+  margin: 10px;
+}
+
+
+.connections {
+  background-color: aliceblue;
+  height: 500px;
+  width: 350px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.border2 {
+  border-top: 2px solid black;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+a {
+  padding-top: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.align {
+  align-items:flex-start;
+}
+
+.numcircle {
+  border-radius: 50%;
+  background-color:aliceblue;
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+  margin-top: 7px;
+  text-align: center;
+  font: 25px "Roboto", sans-serif;
+  
+
+}
+
+.numcircle1 {
+  border-radius: 50%;
+  background-color:aliceblue;
+  width: 60px;
+  height: 30px;
+  padding: 8px;
+  margin-top: 7px;
+  text-align: center;
+  font: 25px "Roboto", sans-serif;
+  
+
+}
+
+
